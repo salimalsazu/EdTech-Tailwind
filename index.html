@@ -22,15 +22,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="dark:bg-gray-900">
     <!----------------Nav Bar Section-->
     <header>
 
-        <nav class="bg-white px-10 md:px-28 sm:px-4 py-2.5  fixed w-full z-20 top-0 left-0 border-b ">
+        <nav class="bg-white dark:bg-gray-900 px-10 md:px-28 sm:px-4 py-2.5  fixed w-full z-20 top-0 left-0 border-b ">
             <div class="container flex flex-wrap justify-center lg:justify-between items-center mx-auto">
                 <a href="#" class="flex items-center">
                     <span
-                        class="self-center text-4xl md:text-6xl font-semibold whitespace-nowrap dark:text-black">EdTech.net</span>
+                        class="self-center text-4xl md:text-6xl font-semibold whitespace-nowrap text-black dark:text-white">EdTech.net</span>
                 </a>
                 <div class="flex md:order-2">
                     <button type="button"
@@ -50,27 +50,27 @@
                 </div>
                 <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                     <ul
-                        class="flex flex-col p-4 mt-4  rounded-lg border md:flex-row md:space-x-5 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
+                        class="flex flex-col p-4 mt-4  rounded-lg border md:flex-row md:space-x-5 md:mt-0 md:text-sm md:font-medium md:border-0  ">
                         <li>
                             <a href="#"
-                                class="block py-2 pr-4 pl-3 text-xl rounded md:bg-transparent md:p-0 text-black font-bold hover:text-gray-400 "
+                                class="block py-2 pr-4 pl-3 text-xl rounded md:bg-transparent md:p-0 text-black  dark:text-white font-bold hover:text-gray-400 "
                                 aria-current="page">Home</a>
                         </li>
                         <li>
                             <a href="#courses"
-                                class="block py-2 pr-4 pl-3 text-xl hover:text-gray-400  text-black font-bold rounded md:p-0">Courses</a>
+                                class="block py-2 pr-4 pl-3 text-xl hover:text-gray-400 dark:text-white   text-black font-bold rounded md:p-0">Courses</a>
                         </li>
                         <li>
                             <a href="#success"
-                                class="block py-2 pr-4 pl-3 md:p-0 hover:text-gray-400   text-xl text-black font-bold rounded">Success</a>
+                                class="block py-2 pr-4 pl-3 md:p-0 hover:text-gray-400 dark:text-white    text-xl text-black font-bold rounded">Success</a>
                         </li>
                         <li>
                             <a href="#about"
-                                class="block py-2 pr-4 pl-3 md:p-0 text-xl hover:text-gray-400   text-black font-bold rounded">About</a>
+                                class="block py-2 pr-4 pl-3 md:p-0 text-xl hover:text-gray-400  dark:text-white   text-black font-bold rounded">About</a>
                         </li>
                         <li>
                             <a href="#f&q"
-                                class="block py-2 pr-4 pl-3 md:p-0  text-xl hover:text-gray-400  text-black font-bold rounded">F&Q</a>
+                                class="block py-2 pr-4 pl-3 md:p-0  text-xl hover:text-gray-400 dark:text-white   text-black font-bold rounded">F&Q</a>
                         </li>
                     </ul>
                 </div>
@@ -144,9 +144,11 @@
 
     <section class="mt-28 container mx-auto" id="courses">
         <div class="flex flex-col justify-center items-center mx-4 px-4">
-            <h1 class="text-6xl text-black font-extrabold mb-10 text-center lg:w-1/2">Discover Our Popular
+            <h1 class="text-6xl text-black dark:text-white font-extrabold mb-10 text-center lg:w-1/2">Discover Our
+                Popular
                 Courses</h1>
-            <p class="text-xl text-gray-600 text-center lg:w-1/2">We created this collection to celebrate 20 years
+            <p class="text-xl text-gray-600 dark:text-white text-center lg:w-1/2">We created this collection to
+                celebrate 20 years
                 of
                 learners
                 and educators coming together to spread
@@ -157,9 +159,9 @@
             <div class="flex md:flex-row flex-col justify-center items-center  border-2 mb-4">
                 <img class="w-full" src="./images/course/course-1.png" alt="">
                 <div class="flex flex-col justify-start items-start px-4">
-                    <h1 class="text-gray-700 font-bold mb-5 text-3xl ">
+                    <h1 class="text-gray-700 dark:text-white font-bold mb-5 text-3xl ">
                         Fundamental Of UI/UX Design</h1>
-                    <p class="text-xl mb-5">No pre-knowledge required -
+                    <p class="text-xl dark:text-white mb-5">No pre-knowledge required -
                         we'll teach you everything you need to know & connect with us.</p>
                     <p class="text-blue-600 text-3xl">Price : $99.99 <span class="line-through"> $ 149.99</span></p>
                 </div>
@@ -168,9 +170,9 @@
             <div class="flex md:flex-row flex-col justify-center items-center border-2 mb-4">
                 <img class="w-full" src="./images/course/course-2.png" alt="">
                 <div class="flex flex-col justify-start items-start px-4">
-                    <h1 class="text-gray-700 font-bold mb-5 text-3xl ">
+                    <h1 class="text-gray-700 dark:text-white font-bold mb-5 text-3xl ">
                         Javascript Basic to advanced</h1>
-                    <p class="text-xl mb-5">Become an advanced, confident, with modern JavaScript tools
+                    <p class="text-xl dark:text-white mb-5">Become an advanced, confident, with modern JavaScript tools
                         and be a developer.</p>
                     <p class="text-blue-600 text-3xl">Price : $29.99<span class="line-through"> $99.99 </span></p>
                 </div>
@@ -179,20 +181,22 @@
             <div class="flex md:flex-row flex-col justify-center items-center  border-2 mb-4">
                 <img class="w-full" src="./images/course/course-3.png" alt="">
                 <div class="flex flex-col justify-start items-start px-4">
-                    <h1 class="text-gray-700 font-bold mb-5 text-3xl ">
+                    <h1 class="text-gray-700 dark:text-white font-bold mb-5 text-3xl ">
                         Fullstack Web Development</h1>
-                    <p class="text-xl mb-5">You will learn the latest technologies React, Node, Next Js with
+                    <p class="text-xl dark:text-white mb-5">You will learn the latest technologies React, Node, Next Js
+                        with
                         MongoDB Database.</p>
-                    <p class="text-blue-600 text-3xl">Price : $99.99 <span class="line-through"> $299.99</span> </p>
+                    <p class="text-blue-600 dark:text-white text-3xl">Price : $99.99 <span class="line-through">
+                            $299.99</span> </p>
                 </div>
             </div>
 
             <div class="flex md:flex-row flex-col justify-center items-center border-2 mb-4 hidden lg:flex">
                 <img class="w-full" src="./images/course/course-4.png" alt="">
                 <div class="flex flex-col justify-start items-start px-4">
-                    <h1 class="text-gray-700 font-bold mb-5 text-3xl ">
+                    <h1 class="text-gray-700 dark:text-white font-bold mb-5 text-3xl ">
                         Digital Marketing & Freelancing</h1>
-                    <p class="text-xl mb-5">Get Hired as a Digital Marketing Expert and Work From Home
+                    <p class="text-xl dark:text-white mb-5">Get Hired as a Digital Marketing Expert and Work From Home
                         as a Freelance Marketer.</p>
                     <p class="text-blue-600 text-3xl">Price : $29.99</p>
                 </div>
@@ -201,9 +205,10 @@
             <div class="flex md:flex-row flex-col justify-center items-center  border-2 mb-4 hidden lg:flex">
                 <img class="w-full" src="./images/course/course-5.png" alt="">
                 <div class="flex flex-col justify-start items-start px-4">
-                    <h1 class="text-gray-700 font-bold mb-5 text-3xl ">
+                    <h1 class="text-gray-700 dark:text-white font-bold mb-5 text-3xl ">
                         Photography Basic Rules</h1>
-                    <p class="text-xl mb-5">You will know how to light your subjects with flash and natural
+                    <p class="text-xl dark:text-white mb-5">You will know how to light your subjects with flash and
+                        natural
                         lighting. keet it up.</p>
                     <p class="text-blue-600 text-3xl">Price : $29.99</p>
                 </div>
@@ -212,9 +217,9 @@
             <div class="flex md:flex-row flex-col justify-center items-center border-2 mb-4 hidden lg:flex">
                 <img class="w-full" src="./images/course/course-6.png" alt="">
                 <div class="flex flex-col justify-start items-start px-4">
-                    <h1 class="text-gray-700 font-bold mb-5 text-3xl ">
+                    <h1 class="text-gray-700 dark:text-white font-bold mb-5 text-3xl ">
                         Motion Graphics</h1>
-                    <p class="text-xl mb-5">Practice compositing techniques to achieve stunning video
+                    <p class="text-xl dark:text-white mb-5">Practice compositing techniques to achieve stunning video
                         effects .</p>
                     <p class="text-blue-600 text-3xl">Price : $29.99</p>
                 </div>
@@ -238,8 +243,9 @@
             <div
                 class=" flex flex-col justify-center items-center lg:justify-start lg:items-start mt-5  lg:ml-10 lg:w-1/3 ">
                 <div class="flex flex-col justify-center items-start px-4 md:px-0 ">
-                    <h1 class="text-gray-900 font-extrabold text-5xl mb-5">Explore The EdTeach.net</h1>
-                    <p class="text-gray-600 font-extralight mb-20">Teaching is one of the most challenging and complex
+                    <h1 class="text-gray-900 dark:text-white font-extrabold text-5xl mb-5">Explore The EdTeach.net</h1>
+                    <p class="text-gray-600 dark:text-white font-extralight mb-20">Teaching is one of the most
+                        challenging and complex
                         jobs
                         on the
                         planet. Our digital
@@ -253,15 +259,15 @@
                 <div
                     class=" flex flex-col md:flex-row md:justify-between justify-center items-center mb-10 w-full px-4 md:px-0">
                     <div>
-                        <h2 class="text-black font-bold text-5xl lg:text-5xl md:text-2xl">3.2K+</h2>
+                        <h2 class="text-black dark:text-white font-bold text-5xl lg:text-5xl md:text-2xl">3.2K+</h2>
                         <p class="text-gray-500 font-extralight">Online Course</p>
                     </div>
                     <div>
-                        <h2 class="text-black font-bold text-5xl lg:text-5xl md:text-2xl">600+</h2>
+                        <h2 class="text-black dark:text-white font-bold text-5xl lg:text-5xl md:text-2xl">600+</h2>
                         <p class="text-gray-500 font-extralight">Expert member</p>
                     </div>
                     <div>
-                        <h2 class="text-black font-bold text-5xl lg:text-5xl md:text-2xl">1K+</h2>
+                        <h2 class="text-black dark:text-white font-bold text-5xl lg:text-5xl md:text-2xl">1K+</h2>
                         <p class="text-gray-500 font-extralight">Rating & Review</p>
                     </div>
                 </div>
@@ -309,9 +315,11 @@
     <!---Success Ful Student-->
     <section class="mt-20 container mx-auto" id="success">
         <div class="flex flex-col justify-start items-start mx-4 lg:mx-0">
-            <h1 class="text-black font-extrabold text-4xl md:text-6xl mb-8">Meet Our Successful <br><span
-                    class="underline underline-offset-8">Students.</span></h1>
-            <p class="text-gray-500 font-light">Your story is unique. That’s why we work closely with you
+            <h1 class="text-black dark:text-white font-extrabold text-4xl md:text-6xl mb-8">Meet Our Successful
+                <br><span class="underline underline-offset-8">Students.</span>
+            </h1>
+            <p class="text-gray-500 dark:text-white font-light">Your story is unique. That’s why we work closely with
+                you
                 to understand <br>
                 your particular interests, needs, and aspirations.</p>
         </div>
@@ -319,28 +327,28 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 mx-3 md:mx-0 gap-3">
             <div class="flex flex-col justify-center items-center rounded-2xl">
                 <img src="./images/student/student-1.png" alt="">
-                <h3 class="text-black text-4xl font-bold mt-3">Jubaey Hasan</h3>
+                <h3 class="text-black dark:text-white text-4xl font-bold mt-3">Jubaey Hasan</h3>
                 <p class="text-gray-500 font-light mt-3">ID: 546875</p>
                 <p class="text-gray-500 font-light mt-2">Back-end Developer</p>
             </div>
 
             <div class="flex flex-col justify-center items-center rounded-2xl ">
                 <img src="./images/student/student-2.png" alt="">
-                <h3 class="text-black text-4xl font-bold mt-3">Tania Sultana</h3>
+                <h3 class="text-black dark:text-white text-4xl font-bold mt-3">Tania Sultana</h3>
                 <p class="text-gray-500 font-light mt-3">ID: 546870</p>
                 <p class="text-gray-500 font-light mt-2">UI UX Designer</p>
             </div>
 
             <div class="flex flex-col justify-center items-center rounded-2xl">
                 <img src="./images/student/student-3.png" alt="">
-                <h3 class="text-black text-4xl font-bold mt-3">Redwan Ahmed</h3>
+                <h3 class="text-black dark:text-white text-4xl font-bold mt-3">Redwan Ahmed</h3>
                 <p class="text-gray-500 font-light mt-3">ID: 542875</p>
                 <p class="text-gray-500 font-light mt-2">Front-end Developer</p>
             </div>
 
             <div class="flex flex-col justify-center items-center rounded-2xl">
                 <img src="./images/student/student-4.png" alt="">
-                <h3 class="text-black text-4xl font-bold mt-3">Faiza Akter</h3>
+                <h3 class="text-black dark:text-white text-4xl font-bold mt-3">Faiza Akter</h3>
                 <p class="text-gray-500 font-light mt-3">ID: 546546</p>
                 <p class="text-gray-500 font-light mt-2">Motion Desinger</p>
             </div>
@@ -351,7 +359,7 @@
 
     <section class="mt-20 container mx-auto">
         <div class="flex flex-col justify-center items-center text-center">
-            <h1 class="text-4xl md:text-6xl text-black font-extrabold mb-5">Some Students Feedback</h1>
+            <h1 class="text-4xl md:text-6xl text-black dark:text-white font-extrabold mb-5">Some Students Feedback</h1>
             <p class="text-gray-500 font-light px-5 lg:px-0">Feedback is any response regarding a student's performance
                 or behavior.
                 It can be verbal, written or
@@ -361,7 +369,7 @@
             <div class="border-2 rounded-2xl">
                 <div class="flex justify-between items-center px-5">
                     <img src="./images/comma.png" alt="">
-                    <div>
+                    <div class="dark:text-white">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -377,7 +385,7 @@
                 <div class="flex justify-start items-start pl-5 mt-20">
                     <img src="./images/student/student-5.png" alt="">
                     <div class="flex flex-col justify-center items-start pl-4">
-                        <h6 class="text-2xl text-black font-bold">Awlad Hossain</h6>
+                        <h6 class="text-2xl text-black dark:text-white font-bold">Awlad Hossain</h6>
                         <p class="text-gray-500 font-light">UI Designer</p>
                     </div>
                 </div>
@@ -386,7 +394,7 @@
             <div class="border-2 rounded-2xl">
                 <div class="flex justify-between items-center px-5">
                     <img src="./images/comma.png" alt="">
-                    <div>
+                    <div class="dark:text-white">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -402,7 +410,7 @@
                 <div class="flex justify-start items-start mt-20 pl-5">
                     <img src="./images/student/student-6.png" alt="">
                     <div class="flex flex-col justify-center items-start pl-4">
-                        <h6 class="text-2xl text-black font-bold">Nita Rahman</h6>
+                        <h6 class="text-2xl text-black dark:text-white font-bold">Nita Rahman</h6>
                         <p class="text-gray-500 font-light">Mern Stack Developer</p>
                     </div>
                 </div>
@@ -414,7 +422,9 @@
 
     <section class="mt-20 container mx-auto" id="f&q">
         <div class="flex flex-col justify-center items-center text-center">
-            <h1 class="text-4xl md:text-6xl text-black font-extrabold mb-5">Frequently Asked Questions</h1>
+            <h1 class="text-4xl md:text-6xl text-black dark:text-white dark:bg-gray-900 font-extrabold mb-5">Frequently
+                Asked Questions
+            </h1>
             <p class="text-gray-500 font-light text-center px-8 lg:px-0">These are sample requests and topics from the
                 most
                 frequently asked
@@ -425,7 +435,7 @@
 
         </div>
         <div class="accordion mt-10 px-8 lg:px-0" id="accordionExample">
-            <div class="accordion-item bg-white border border-gray-200">
+            <div class="accordion-item bg-white border dark:bg-gray-900 border-gray-200 dark:border-gray-500">
                 <h2 class="accordion-header mb-0" id="headingOne">
                     <button class="
               accordion-button
@@ -436,7 +446,8 @@
               py-4
               px-5
                text-gray-800 text-left
-              bg-white
+              dark:text-white
+              dark:bg-gray-900
               border-0
               rounded-none
               transition
@@ -448,14 +459,14 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
-                    <div class="accordion-body py-4 px-5">
+                    <div class="accordion-body dark:text-white py-4 px-5">
                         <strong>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was
                             designed for layout in one dimension - either a row or a column. Grid was designed for
                             two-dimensional layout - rows, and columns at the same time.
                     </div>
                 </div>
             </div>
-            <div class="accordion-item bg-white border border-gray-200">
+            <div class="accordion-item bg-white border  dark:bg-gray-900 border-gray-200">
                 <h2 class="accordion-header mb-0" id="headingTwo">
                     <button class="
               accordion-button
@@ -467,7 +478,8 @@
               py-4
               px-5
               text-4xl text-gray-800 text-left
-              bg-white
+              dark:text-white
+              dark:bg-gray-900
               border-0
               rounded-none
               transition
@@ -479,7 +491,7 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
-                    <div class="accordion-body py-4 px-5">
+                    <div class="accordion-body dark:text-white py-4 px-5">
                         Bootstrap's utility and layout classes provide you with everything you need to style a
                         responsive webpage. With Tailwind, however, you are much more involved in styling the webpage
                         because you end up having to create your own components using the utility classes that the
@@ -487,7 +499,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item bg-white border border-gray-200">
+            <div class="accordion-item bg-white border dark:bg-gray-900 border-gray-200">
                 <h2 class="accordion-header mb-0" id="headingThree">
                     <button class="
               accordion-button
@@ -499,7 +511,8 @@
               py-4
               px-5
               text-4xl text-gray-800 text-left
-              bg-white
+              dark:text-white
+              dark:bg-gray-900
               border-0
               rounded-none
               transition
@@ -511,14 +524,14 @@
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
-                    <div class="accordion-body py-4 px-5">
+                    <div class="accordion-body dark:text-white py-4 px-5">
                         The CSS box model is a container that contains multiple properties including borders, margin,
                         padding, and the content itself. It is used to create the design and layout of web pages.
                     </div>
                 </div>
             </div>
-            <div class="accordion-item bg-white border border-gray-200">
-                <h2 class="accordion-header mb-0" id="headingThree">
+            <div class="accordion-item bg-white border dark:bg-gray-900 border-gray-200">
+                <h2 class="accordion-header mb-0" id="headingFour">
                     <button class="
               accordion-button
               collapsed
@@ -529,19 +542,20 @@
               py-4
               px-5
               text-4xl text-gray-800 text-left
-              bg-white
+              dark:text-white
+              dark:bg-gray-900
               border-0
               rounded-none
               transition
               focus:outline-none
-            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                        aria-controls="collapseThree">
+            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                        aria-controls="collapseFour">
                         Semantic Tag
                     </button>
                 </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                     data-bs-parent="#accordionExample">
-                    <div class="accordion-body py-4 px-5">
+                    <div class="accordion-body dark:text-white py-4 px-5">
                         Semantic HTML elements are those that clearly describe their meaning in a human- and
                         machine-readable way. Elements such as
                         ,
@@ -558,7 +572,8 @@
 
     <section class="mt-20 container mx-auto hidden lg:flex flex-col justify-center items-center">
         <div class="flex justify-center items-center">
-            <h1 class="text-4xl md:text-6xl text-black font-extrabold mb-5">Trusted by over 800+ companies</h1>
+            <h1 class="text-4xl md:text-6xl text-black dark:text-white font-extrabold mb-5">Trusted by over 800+
+                companies</h1>
         </div>
         <div class=" flex justify-center items-center  mt-5 gap-20">
             <img src="./images/company/company-1.png" alt="">
